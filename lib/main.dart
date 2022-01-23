@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
                     fontWeight: FontWeight.normal,
                   ))),
         ),
-        body: Center (
+        body: Center(
           child: Image(
             image: AssetImage('assets/new.gif'),
           ),
@@ -30,8 +30,8 @@ class MyApp extends StatelessWidget {
         floatingActionButton: FloatingActionButton(
           backgroundColor: Colors.black54,
           onPressed: () {
-            Navigator.push(context,
-                MaterialPageRoute(builder: (context) =>first()));
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => first()));
           },
           child: Icon(Icons.east),
         ),
